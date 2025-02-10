@@ -1,4 +1,4 @@
-// 'use strict';
+'use strict';
 
 
 // 1.нужно реализовать функцию, которая для переданного объекта
@@ -33,7 +33,7 @@
 
 
 
-/* export default function orderByProps(object, propetySortList) {
+export default function orderByProps(object, propetySortList) {
     // СПИСОК "ключ-значение" объекта:
     let listElement = Object.entries(object);
     // console.log(listElement) //   [['name', 'мечник'], ['health', 10], ['level', 2],['attack', 80],['defence', 40]]
@@ -88,8 +88,4 @@
     };
     // console.log(gameNewList);
     return gameNewList;
-} */
-
-// export default function orderByProps(object){
-//     return object
-// }
+}

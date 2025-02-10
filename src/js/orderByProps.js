@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 
 
 // 1.нужно реализовать функцию, которая для переданного объекта
@@ -90,6 +90,6 @@
     return gameNewList;
 } */
 
-export default function orderByProps(object){
-    return object
-}
+// export default function orderByProps(object){
+//     return object
+// }

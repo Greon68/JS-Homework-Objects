@@ -47,7 +47,7 @@ export default function orderByProps(object, propetySortList) {
         newObj.value = elem[1]       
         // console.log(newObj)
         gameList.push(newObj)
-    }
+    };
     // console.log(listNonSortObjects) // 5: [{"key": "name","value": "мечник"}, 
                                 //  {key: 'health', value: 10},
                                 //  {key: 'level', value: 2},
@@ -58,7 +58,7 @@ export default function orderByProps(object, propetySortList) {
 // Проходим по сортировочному списку
 // Разделяем список  по порядку сортировки:
 // Новый список :
-    let gameNewList = []
+    let gameNewList = [];
 // Проходим по сортировочному списку:
     for (let j=0; j<propetySortList.length;j++ ){
         // Проходим по списку объектов
@@ -73,7 +73,7 @@ export default function orderByProps(object, propetySortList) {
             }
         }
              
-    }
+    };
     // console.log(gameNewList);
     // console.log(gameList); 
 
@@ -85,8 +85,7 @@ export default function orderByProps(object, propetySortList) {
     //  каждый объект из массива объектов gameList
     for (let elem of gameList ){
         gameNewList.push(elem)
-    }
+    };
     // console.log(gameNewList);
-    return gameNewList
-
+    return gameNewList;
 }

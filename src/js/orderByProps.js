@@ -33,7 +33,7 @@
 
 
 
-export default function orderByProps(object, propetySortList) {
+/* export default function orderByProps(object, propetySortList) {
     // СПИСОК "ключ-значение" объекта:
     let listElement = Object.entries(object);
     // console.log(listElement) //   [['name', 'мечник'], ['health', 10], ['level', 2],['attack', 80],['defence', 40]]
@@ -88,4 +88,8 @@ export default function orderByProps(object, propetySortList) {
     };
     // console.log(gameNewList);
     return gameNewList;
+} */
+
+export default function orderByProps(object){
+    return object
 }

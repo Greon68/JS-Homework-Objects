@@ -12,4 +12,4 @@ const hero = {
 
 let sortList = ['name','level'];
 
-console.log(orderByProps(hero, sortList));
+console.log(orderByProps(hero));

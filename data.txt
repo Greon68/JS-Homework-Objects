@@ -1,0 +1,8 @@
+Перед запуском инсталляции пакета вводи - npm config set registry https://registry.npmjs.org/
+Это поможет решить конфликт с правами доступа
+После этого жмём : npm i 
+
+Требуемые зависимости:  webpack webpack-cli webpack-dev-server live-server
+                        @babel/cli @babel/core @babel/preset-env
+                        babel-loader css-loader html-loader html-webpack-plugin style-loader
+                         jest @types/jest eslint eslint-plugin-jest
